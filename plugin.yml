@@ -1,0 +1,14 @@
+name: Police
+main: AVENDA\Main
+version: "1.0.0"
+api: [3.0.0, 4.0.0]
+author: AVENDA
+
+commands:
+ police:
+  permission: police.cmd.use
+  description: Police Cmd
+  
+permissions:
+ police.cmd.use:
+  default: Op
